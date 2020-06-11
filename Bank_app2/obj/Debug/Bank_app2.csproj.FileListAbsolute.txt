@@ -1,0 +1,13 @@
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.csprojAssemblyReference.cache
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.Buy.resources
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.Login.resources
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.Home.resources
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.Pay.resources
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.Properties.Resources.resources
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.Transaction.resources
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.csproj.GenerateResource.cache
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\bin\Debug\Bank_app2.exe.config
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\bin\Debug\Bank_app2.exe
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\bin\Debug\Bank_app2.pdb
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.exe
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.pdb
