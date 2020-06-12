@@ -11,3 +11,7 @@ C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\bin\Debug\Bank_app2.exe
 C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\bin\Debug\Bank_app2.pdb
 C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.exe
 C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.pdb
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\bin\Debug\Bank_app2.exe.manifest
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\bin\Debug\Bank_app2.application
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.exe.manifest
+C:\Users\Mhlengi Nkosi\source\repos\Bank_app2\obj\Debug\Bank_app2.application

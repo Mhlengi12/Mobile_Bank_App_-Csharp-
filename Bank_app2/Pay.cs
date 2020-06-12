@@ -17,9 +17,13 @@ namespace Bank_app2
             InitializeComponent();
         }
 
+        public static string history = "";
+
         private void Pay_Load(object sender, EventArgs e)
         {
             label8.Text = Login.balance.ToString("c2");
+            if (Buy.item == "")
+                Buy.item = "Airtime";
 
             listBox1.Items.Clear();
             listBox1.Items.Add("R 10 for " + Buy.item.ToString());
@@ -41,15 +45,15 @@ namespace Bank_app2
             }
             else
             {
-                if (listBox1.SelectedIndex == 1)
+                if (listBox1.SelectedIndex == 0)
                     price = 10;
-                if (listBox1.SelectedIndex == 2)
+                if (listBox1.SelectedIndex == 1)
                     price = 20;
-                if (listBox1.SelectedIndex == 3)
+                if (listBox1.SelectedIndex == 2)
                     price = 50;
-                if (listBox1.SelectedIndex == 4)
+                if (listBox1.SelectedIndex == 3)
                     price = 100;
-                if (listBox1.SelectedIndex == 5)
+                if (listBox1.SelectedIndex == 4)
                     price = 200;
 
                 if (Login.balance < price)
@@ -57,7 +61,9 @@ namespace Bank_app2
                 else
                 {
                     Login.balance -= price;
+                    label8.Text = Login.balance.ToString("c2");
                     MessageBox.Show("Succesfull purchase");
+                    history += listBox1.SelectedItem.ToString() + " \t\t" + DateTime.Today.ToShortDateString() + ". \n";
                 }
                     
             }

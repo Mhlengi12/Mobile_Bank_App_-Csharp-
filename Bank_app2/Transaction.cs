@@ -21,6 +21,10 @@ namespace Bank_app2
         {
             label8.Text = Login.balance.ToString("c2");
             listBox1.Items.Clear();
+            listBox1.Items.Add("Purchases: \t\tDate:");
+            string[] trans = Pay.history.ToString().Split('.');
+            for(int x=0;x< trans.Length;x++)
+                listBox1.Items.Add(trans[x].ToString());
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -62,6 +66,13 @@ namespace Bank_app2
         {
             Pay pay = new Pay();
             pay.Show();
+            this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Buy buy = new Buy();
+            buy.Show();
             this.Hide();
         }
     }

@@ -17,40 +17,55 @@ namespace Bank_app2
             InitializeComponent();
         }
 
-        public static bool safe = false;
+        public static bool safe_str = false;
 
         //public bool safe_str;
-
-        public bool safe_str
+        /*
+        public static bool safe_str
         {
             get { return safe_str; }
-            set { safe = value; }
+            set { safe_str = value; }
         }
-
+        */
         public static int balance = 0;
+        /*
         public int balance_str
         {
             get { return balance; }
             set { balance_str = value; }
         }
-
+        */
         private void button1_Click(object sender, EventArgs e)
         {
             Home home = new Home();
-
-            if (textBox2.Text == "123456")
+            if (textBox1.Text == "")
             {
-                safe = true;
+                MessageBox.Show("Please enter your username");
+                textBox1.Focus();
+            }
+            else if (textBox1.Text != "admin")
+            {
+                MessageBox.Show("Incorrect username");
+                textBox1.Focus();
+            }
+            else if(textBox2.Text == "")
+            {
+                MessageBox.Show("Please enter your password");
+                textBox2.Focus();
+            }
+            else if (textBox2.Text == "123456")
+            {
+                safe_str = true;
                 balance = 1000;
                 home.Show();
-                this.Close();
+                this.Hide();
             }
             else if (textBox2.Text == "654321")
             {
-                safe = false;
+                safe_str = false;
                 balance = 0;
                 home.Show();
-                this.Close();
+                this.Hide();
             }
             else
             {
@@ -96,6 +111,19 @@ namespace Bank_app2
             }
               
              */
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == false)
+                textBox2.UseSystemPasswordChar = true;
+            else
+                textBox2.UseSystemPasswordChar = false;
         }
     }
 }
